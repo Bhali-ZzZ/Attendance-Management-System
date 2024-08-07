@@ -24,7 +24,7 @@ import './styles/about.css';
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className='background'>
         <Navbar />
         <div className="dashboard-container">
           <Sidebar />

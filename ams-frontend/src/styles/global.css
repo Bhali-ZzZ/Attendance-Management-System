@@ -16,6 +16,11 @@
     background-size: cover;
     color: #333;
   }
+  .background{
+    background-image: url(/ams-frontend/src/assets/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   a {
     text-decoration: none;
