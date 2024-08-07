@@ -1,0 +1,39 @@
+/* Login and Register Styles */
+.auth-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .auth-container form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+  
+  .auth-container form button:hover {
+    background: #555;
+  }
+  

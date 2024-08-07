@@ -1,0 +1,84 @@
+/* Container styling */
+.leave-requests-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-requests-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .leave-requests-container {
+      padding: 15px;
+    }
+  
+    .input-field {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .input-field {
+      font-size: 12px;
+    }
+  
+    .submit-button {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  

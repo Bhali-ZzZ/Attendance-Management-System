@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    min-height: 100vh; */
+    background: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .home-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-text {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .home-heading {
+      font-size: 2rem;
+    }
+  
+    .home-text {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-heading {
+      font-size: 1.5rem;
+    }
+  
+    .home-text {
+      font-size: 0.9rem;
+    }
+  }
+  

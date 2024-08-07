@@ -1,0 +1,85 @@
+/* Container styling for the form */
+.attendance-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  .attendance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .select-status {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .select-status:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .submit-button.marked {
+    background-color: green;
+  }
+  
+  .submit-button.not-marked {
+    background-color: black;
+  }
+  
+  .submit-button:hover:not(.marked) {
+    background-color: #333;
+  }
+  
+  .submit-button:disabled {
+    cursor: not-allowed;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .attendance-container {
+      padding: 15px;
+    }
+  
+    .select-status {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .select-status {
+      font-size: 12px;
+    }
+  
+    .submit-button {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+/* Dashboard Styles */
+.dashboard-container {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 220px;
+    padding: 2rem;
+    width: calc(100% - 220px);
+  }
+  
+  .main-content h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    margin-bottom: 1rem;
+  }
+  
+  .card button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  
+  .card button:hover {
+    background: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-content {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .dashboard-container {
+      flex-direction: column;
+    }
+  }
+  

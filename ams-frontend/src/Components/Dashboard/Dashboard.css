@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Container Styling */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-button {
+    background-color: #4caf50; /* Green color for school/college theme */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .dashboard-button {
+      width: 80%;
+      font-size: 14px;
+      padding: 12px 25px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .dashboard-button {
+      width: 60%;
+      font-size: 15px;
+      padding: 14px 28px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .dashboard-button {
+      width: 40%;
+      font-size: 16px;
+      padding: 15px 30px;
+    }
+  }
+  

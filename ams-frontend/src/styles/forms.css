@@ -1,0 +1,33 @@
+/* Form Styles */
+form {
+    background: #fff;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
