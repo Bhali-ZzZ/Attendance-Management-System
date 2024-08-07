@@ -1,15 +1,16 @@
 /* Dashboard Styles */
 .dashboard-container {
     display: flex;
+    background-image: url(/ams-frontend/src/assets/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .main-content {
     margin-left: 220px;
     padding: 2rem;
     width: calc(100% - 220px);
-    background-image: url(/ams-frontend/src/assets/body.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
   }
   
   .main-content h1 {
