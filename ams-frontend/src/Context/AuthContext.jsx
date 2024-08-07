@@ -4,7 +4,7 @@ import axios from 'axios';
 export const AuthContext = createContext();
 
 const AuthContextProvider = ({ children }) => {
-  const url = "http://localhost:4000";
+  const url = "https://attendance-management-system-e1rv.onrender.com";
 
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem('token')); // Initialize from localStorage
